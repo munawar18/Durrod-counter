@@ -1,0 +1,24 @@
+---------------------------------------------------
+Here are the ownership and the certification details
+of the Durood Counter 1.0
+---------------------------------------------------
+
+app_name - 						Durood Counter
+app_alias - 					duroodcounter
+app_author_name - 				My Company
+app_author_organizational - 	My Company
+app_author_organization - 		My Company
+app_author_locality - 			My Company
+app_author_state - 				Delhi
+app_author_country - 			India
+app_password - 					TziniyUEwrRd
+app_versionName - 				versionName "1.0"
+app_versionCode - 				100
+
+---------------------------------------------------
+The certification was created by WebIntoApp.com at
+the Wednesday 13th of December 2023 10:31:30 AM
+
+https://www.webintoapp.com
+---------------------------------------------------
+

@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* overflow-x: hidden; Hide overflow to prevent scrolling */
+}
+
+.app-name-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: darkblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* Initially set opacity to 0 */
+    animation: fadeIn 3s forwards; /* Add animation */
+    z-index: 2; /* Set a higher z-index to make it appear above the main container */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.app-name {
+    color: gold;
+    margin: 0;
+}
+
+.app-container {
+    background-color: darkgreen;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* Set initial opacity to 0 */
+    transition: opacity 1s ease-in-out; /* Add transition */
+}
+
+.app-container.show {
+    opacity: 1; /* Set opacity to 1 when the class is added */
+}
+
+
+.app-heading {
+    color: gold;
+    /* margin: 0 Add some margin to separate it from the rest of the content */
+    background-color: darkblue;
+}
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #3d8e3d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px; /* Add this line for rounded edges */
+}
+
+button:hover {
+    background-color: #2565AE;
+    color: #f1c8c8; /* Change text color on hover */
+}
+
+
+#counterDisplay {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Add margin to the last count container */
+#lastCountContainer {
+    margin-top: 10px;
+    font-size: large;
+    font-weight: 700;
+}
+
+.app-image {
+    max-width: 50%;
+    margin-top: 10px;
+}
